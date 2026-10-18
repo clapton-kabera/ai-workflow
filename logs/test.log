@@ -1,0 +1,46 @@
+cc -std=c99 -Wall -Wextra -Werror -g -c -o dict.o dict.c
+cc -std=c99 -Wall -Wextra -Werror -g -c -o test_dict.o test_dict.c
+cc -std=c99 -Wall -Wextra -Werror -g -Wl,--wrap=malloc -o test_dict dict.o test_dict.o
+./test_dict
+PASS TC-01
+PASS TC-02
+PASS TC-03
+PASS TC-04
+PASS TC-05
+PASS TC-06
+PASS TC-07
+PASS TC-08
+PASS TC-09
+PASS TC-10
+PASS TC-11
+PASS TC-12
+PASS TC-13
+PASS TC-14
+PASS TC-15
+PASS TC-16
+PASS TC-17
+PASS TC-18
+PASS TC-19
+PASS TC-20
+PASS TC-21
+PASS TC-22
+PASS TC-23
+PASS TC-24
+PASS TC-25
+PASS TC-26
+PASS TC-27
+PASS TC-28
+PASS TC-29
+PASS TC-30
+PASS TC-31
+PASS TC-32
+PASS TC-33
+PASS TC-34
+PASS TC-35
+PASS TC-36
+PASS TC-37
+PASS TC-38
+PASS TC-39
+PASS TC-40
+PASS TC-41
+SUMMARY: 41/41 passed

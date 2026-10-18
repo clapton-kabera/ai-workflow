@@ -1,0 +1,57 @@
+valgrind --leak-check=full --error-exitcode=2 ./test_dict
+==14879== Memcheck, a memory error detector
+==14879== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==14879== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==14879== Command: ./test_dict
+==14879== 
+PASS TC-01
+PASS TC-02
+PASS TC-03
+PASS TC-04
+PASS TC-05
+PASS TC-06
+PASS TC-07
+PASS TC-08
+PASS TC-09
+PASS TC-10
+PASS TC-11
+PASS TC-12
+PASS TC-13
+PASS TC-14
+PASS TC-15
+PASS TC-16
+PASS TC-17
+PASS TC-18
+PASS TC-19
+PASS TC-20
+PASS TC-21
+PASS TC-22
+PASS TC-23
+PASS TC-24
+PASS TC-25
+PASS TC-26
+PASS TC-27
+PASS TC-28
+PASS TC-29
+PASS TC-30
+PASS TC-31
+PASS TC-32
+PASS TC-33
+PASS TC-34
+PASS TC-35
+PASS TC-36
+PASS TC-37
+PASS TC-38
+PASS TC-39
+PASS TC-40
+PASS TC-41
+SUMMARY: 41/41 passed
+==14879== 
+==14879== HEAP SUMMARY:
+==14879==     in use at exit: 0 bytes in 0 blocks
+==14879==   total heap usage: 339,793 allocs, 339,793 frees, 9,181,181 bytes allocated
+==14879== 
+==14879== All heap blocks were freed -- no leaks are possible
+==14879== 
+==14879== For lists of detected and suppressed errors, rerun with: -s
+==14879== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
