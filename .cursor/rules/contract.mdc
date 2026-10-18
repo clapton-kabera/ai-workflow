@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+Never modify dict.h. It is a fixed specification.  
